@@ -11,3 +11,5 @@ def get_at_content(dna, sigfigs): # second argument, sigfigs, works with the rou
 
 #oh, we should remove N's entirely
 #could let length = the count of A's, T's, C's, and G's, or remove the N's from the sequence
+#just kidding, count() won't work that way.
+#instead just add dna.replace('N','') to remove them from the sequence
